@@ -1,8 +1,8 @@
 export interface Gps {
     latitude: number;
-    longtitude: number;
+    longitude: number;
     latitudeSymbol: string;
-    longtitudeSymbol: string;
+    longitudeSymbol: string;
 }
 
 export interface Plot {
