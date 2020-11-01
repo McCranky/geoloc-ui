@@ -26,7 +26,7 @@ const SinglePointSearchBar = ({ cancel, onSearch, ...props }: Props) => {
                     </Form.Label>
                     <Form.Control
                         id='inlineFormInputLatitude'
-                        placeholder='23'
+                        placeholder='Latitude'
                         value={latitude}
                         onChange={(input) => setLatitude(input.currentTarget.value)}
                     />
@@ -37,7 +37,7 @@ const SinglePointSearchBar = ({ cancel, onSearch, ...props }: Props) => {
                     </Form.Label>
                     <Form.Control
                         id='inlineFormInputLongtitude'
-                        placeholder='23'
+                        placeholder='Longtitude'
                         value={longtitude}
                         onChange={(input) => setLongtitude(input.currentTarget.value)}
                     />

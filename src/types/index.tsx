@@ -20,3 +20,11 @@ export interface Property {
     plots: string[];
     gps: Gps;
 }
+
+export interface ObjectInfo {
+    type: string;
+    number: number;
+    description: string;
+    relationToObject: string[];
+    gps: Gps;
+}

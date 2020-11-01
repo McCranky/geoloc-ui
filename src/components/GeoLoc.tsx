@@ -57,7 +57,7 @@ const GeoLoc = (props: Props) => {
         <>
             <Container>
                 <Jumbotron>
-                    <h2>🌍️ GeoLoc! 🌍️</h2>
+                    <h2>🌍️ GeoLoc 🌍️</h2>
                     <h4>{`There are currently ${plots} plots and ${properties} properties in database.`}</h4>
                 </Jumbotron>
                 <Row className='justify-content-md-center m-3'>

@@ -18,8 +18,8 @@ const NavBar = (props: Props) => {
                 <NavLink className='nav-link' to='/properties'>
                     Properties
                 </NavLink>
-                <NavLink className='nav-link' to='/allObjects'>
-                    All Objects
+                <NavLink className='nav-link' to='/objectsFinder'>
+                    Objects finder
                 </NavLink>
             </Nav>
         </Navbar>
