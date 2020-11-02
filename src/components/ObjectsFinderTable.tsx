@@ -17,9 +17,10 @@ const ObjectsFinderTable = ({ objects, ...props }: Props) => {
                 <tr>
                     {/* <th>No. #</th> */}
                     <th>Number</th>
+                    <th>Type</th>
                     <th>Description</th>
                     <th>GPS</th>
-                    <th>Properties</th>
+                    <th>Relations</th>
                 </tr>
             </thead>
             <tbody>
@@ -27,6 +28,7 @@ const ObjectsFinderTable = ({ objects, ...props }: Props) => {
                     <tr key={o.description + index}>
                         {/* <td>{index + 1}</td> */}
                         <td>{o.number}</td>
+                        <td>{o.type}</td>
                         <td>{o.description}</td>
                         <td>{formatGps(o.gps)}</td>
                         <td>{o.relationToObject}</td>
