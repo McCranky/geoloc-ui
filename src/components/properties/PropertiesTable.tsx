@@ -28,7 +28,7 @@ const PropertiesTable = ({
                     <th>Number</th>
                     <th>Description</th>
                     <th>GPS</th>
-                    <th>Properties</th>
+                    <th>Plots</th>
                     <th></th>
                     <th></th>
                 </tr>
